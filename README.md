@@ -71,4 +71,7 @@ Este ejercicio se enfoca en la representación de una instalación deportiva y u
 - `ejercicio3/src/model/Polideportivo.java`
 - `ejercicio3/src/model/EdificioDeOficinas.java`
 - `ejercicio3/src/mainEjercicio3.java`
+
+### repositorio
+[https://github.com/Labo-4-UTN/TP2_GRUPO_17](https://github.com/Labo-4-UTN/TP2_GRUPO_17)
 ---
