@@ -4,6 +4,9 @@
 ### Descripción
 En este ejercicio se trabajará con la clase `Empleado` creada previamente. Se debe crear una clase `Profesor` que herede de `Empleado` y aplicar el concepto de encapsulamiento en sus atributos.
 
+### Tablero Jira
+[Enlace](https://guillermo-navarro.atlassian.net/jira/core/projects/L4/board)
+
 ### Tareas
 1. Crear un paquete llamado `ejercicio1`.
 2. Dentro de `ejercicio1`, crear una clase `Profesor` que herede de `Empleado` con los siguientes atributos:
