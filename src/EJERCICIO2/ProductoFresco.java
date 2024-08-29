@@ -14,6 +14,12 @@ public class ProductoFresco extends Producto {
 		return PaisOrigen;
 	}
 
+	@Override
+	public String toString() {
+		return "ProductoFresco [FechaEnvasado=" + FechaEnvasado + ", PaisOrigen=" + PaisOrigen + ", FechaCaducidad="
+				+ FechaCaducidad + ", NumeroLote=" + NumeroLote + "]";
+	}
+
 	public void setFechaEnvasado(String FechaEnvasado) {
 		this.FechaEnvasado = FechaEnvasado;
 	}

@@ -12,6 +12,12 @@ public class ProductoCongelado extends Producto{
 		super();
 	}
 	
+	@Override
+	public String toString() {
+		return "ProductoCongelado [tempRec=" + tempRec + ", FechaCaducidad=" + FechaCaducidad + ", NumeroLote="
+				+ NumeroLote + "]";
+	}
+
 	public void setTempRec(float tempRec) {
 		this.tempRec = tempRec;
 	}
