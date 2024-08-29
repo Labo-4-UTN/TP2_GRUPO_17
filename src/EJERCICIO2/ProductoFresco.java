@@ -13,8 +13,14 @@ public class ProductoFresco extends Producto {
 	public String getPaisOrigen() {
 		return PaisOrigen;
 	}
-	
-	
+
+	public void setFechaEnvasado(String FechaEnvasado) {
+		this.FechaEnvasado = FechaEnvasado;
+	}
+
+	public void setPaisOrigen(String PaisOrigen) {
+		this.PaisOrigen = PaisOrigen;
+	}
 
 	public ProductoFresco() {
 		super();

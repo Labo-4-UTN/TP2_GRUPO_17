@@ -12,6 +12,10 @@ public class ProductoCongelado extends Producto{
 		super();
 	}
 	
+	public void setTempRec(float tempRec) {
+		this.tempRec = tempRec;
+	}
+
 	public ProductoCongelado(String fecha_de_caducidad, int numeroLote, float tempRec) {
 		super(fecha_de_caducidad, numeroLote);
 		this.tempRec = tempRec;
