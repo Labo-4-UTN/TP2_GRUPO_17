@@ -27,6 +27,12 @@ public class Profesor extends Empleado{
 		this.antiguedadDocente = antiguedadDocente;
 	}
 	
+	public Profesor(String nombre, int edad, String cargo, int antiguedadDocente) {
+		super(nombre, edad);
+		this.cargo = cargo;
+		this.antiguedadDocente = antiguedadDocente;
+	}
+	
 	public Profesor() {
 		super();
 		this.cargo =" Sin Cargo";
@@ -35,7 +41,10 @@ public class Profesor extends Empleado{
 
 	@Override
 	public String toString() {
-		return " ID : "+ super.getId() + " NOMBRE " + super.getNombre() + " EDAD " + super.getEdad() + " CARGO " + cargo + " ANTIGUED DOCENTE : " + antiguedadDocente;
+		return "[" + super.toString() + " Profesor cargo =" + cargo + ", antiguedadDocente=" + antiguedadDocente + "]";
 	}
+
+
+	
 	
 }

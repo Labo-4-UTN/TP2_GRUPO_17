@@ -1,47 +1,56 @@
 package EJERCICIO1;
 
 public class Empleado {
- private int id;
- private String nombre;
- private int edad;
- 
-public int getId() {
-	return id;
+	private final int id;
+	private String nombre;
+	private int edad;
+	
+	//Contador
+	static int cont=1000;
+
+	//Constructors
+	public Empleado() {
+        this.id = cont++;
+        this.nombre = "sin nombre";
+        this.edad = 99;
+    }
+    
+    public Empleado(String name, int age) {
+        this.id = cont++;
+        this.nombre = name;
+        this.edad = age;
+    }
+	
+	// Getters
+	int getId() {
+		return this.id;
+	}
+	
+	String nombre() {
+		return this.nombre;
+	}
+	
+	int edad() {
+		return this.edad;
+	}
+	
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public void setEdad(int edad) {
+		this.edad = edad;
+	}
+
+	//Método estático
+		public static int devuelveProximoID()
+		{
+			return cont;
+		}
+
+		@Override
+		public String toString() {
+			return "Empleado: "+ this.nombre +", Edad: "+ this.edad + ", Legajo: "+ this.id;
+		}
 }
 
-public void setId(int id) {
-	this.id = id;
-}
-
-public String getNombre() {
-	return nombre;
-}
-public void setNombre(String nombre) {
-	this.nombre = nombre;
-}
-public int getEdad() {
-	return edad;
-}
-public void setEdad(int edad) {
-	this.edad = edad;
-}
-public Empleado(int id, String nombre, int edad) {
-	this.id = id;
-	this.nombre = nombre;
-	this.edad = edad;
-}
-
-public Empleado() {
-	this.id = 00000;
-	this.nombre = "Sin Nombre";
-	this.edad = 55;
-}
-
-@Override
-public String toString() {
-	return "Empleado [id=" + id + ", nombre=" + nombre + ", edad=" + edad + "]";
-}
- 
-
- 
-}
