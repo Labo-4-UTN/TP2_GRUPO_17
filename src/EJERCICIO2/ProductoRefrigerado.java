@@ -28,6 +28,6 @@ public class ProductoRefrigerado extends Producto{
 
 	@Override
 	public String toString() {
-		return super.toString() + "ProductoRefrigerado [codAlim=" + codAlim + "]";
+		return "ProductoRefrigerado [codAlim=" + codAlim + "]" + super.toString();
 	}
 }
