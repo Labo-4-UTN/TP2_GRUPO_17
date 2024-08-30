@@ -11,6 +11,7 @@ public class mainEjercicio1_b {
 		Profesor P3 = new Profesor("Leonardo", 43," Profesor ",11);
 		Profesor P4 = new Profesor("Lina", 34," Profesor ",5);
 		Profesor P5 = new Profesor("Lucas", 53," Preceptor ",7);	
+		Profesor P6 = new Profesor("Lucas", 53," Preceptor ",7);	
 		
 		TreeSet<Profesor> treeProfesores = new TreeSet<Profesor>();
 		treeProfesores.add(P1);
@@ -19,7 +20,13 @@ public class mainEjercicio1_b {
 		treeProfesores.add(P4);
 		treeProfesores.add(P5);
 		
-		mostrarProfesores(treeProfesores);    
+		mostrarProfesores(treeProfesores);   
+		
+		System.out.println(" -------- ");
+		
+		compararProfesores(P5,P6);
+		
+		
 	}
 		
 		private static void mostrarProfesores(TreeSet<Profesor> profesores) {
@@ -30,4 +37,11 @@ public class mainEjercicio1_b {
             System.out.println(profesor);
         }		
 	}
+		private static void compararProfesores(Profesor p1, Profesor p2) {
+	        if (p1.equals(p2)) {
+	            System.out.println("Es el mismo profesor");
+	        } else {
+	            System.out.println("No son la misma persona");
+	        }
+	    }
 }
