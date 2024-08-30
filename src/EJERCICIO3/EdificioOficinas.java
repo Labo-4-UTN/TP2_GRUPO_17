@@ -21,4 +21,15 @@ public class EdificioOficinas extends Edificio {
 	public int getCantidadDeOficinas() {
 		return this.cantidadDeOficinas;
 	}
+
+	public void setCantidadDeOficinas(int cantidadDeOficinas) {
+		this.cantidadDeOficinas = cantidadDeOficinas;
+	}
+
+	@Override
+	public String toString() {
+		return "EdificioOficinas cantidadDeOficinas=" + cantidadDeOficinas + " Longitud " +super.getLongitud()+ " Ancho " + super.getAncho();
+	}
+	
+	
 }
