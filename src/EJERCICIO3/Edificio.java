@@ -45,9 +45,9 @@ public class Edificio implements Instalacion{
 	}
 
 	@Override
-	public double getTipoDeInstalacion() {
+	public String getTipoDeInstalacion() {
 		
-		return 0;
+		return "Se trata de un edificio";
 	}
 	
 }

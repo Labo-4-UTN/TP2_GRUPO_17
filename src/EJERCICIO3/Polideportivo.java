@@ -27,7 +27,9 @@ public class Polideportivo extends Edificio implements Instalacion{
 		return "Polideportivo Nombre= " + Nombre + " Longitud= " + super.getLongitud() +"m Ancho= "+ super.getAncho()+"m";
 	}
 
-	
-	
+	public String getTipoDeInstalacion() {
+		
+		return "Se trata de una instalación deportiva y edificio";
+	}
 	
 }
