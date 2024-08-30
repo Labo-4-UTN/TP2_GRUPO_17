@@ -41,7 +41,13 @@ public class Edificio implements Instalacion{
 
 	@Override
 	public String toString() {
-		return "Edificio [Longitud=" + Longitud + ", Ancho=" + Ancho + "]";
+		return "Edificio [Longitud=" + Longitud + "m, Ancho=" + Ancho + "m]";
+	}
+
+	@Override
+	public double getTipoDeInstalacion() {
+		
+		return 0;
 	}
 	
 }

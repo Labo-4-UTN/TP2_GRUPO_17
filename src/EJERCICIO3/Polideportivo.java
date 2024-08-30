@@ -24,7 +24,7 @@ public class Polideportivo extends Edificio implements Instalacion{
 
 	@Override
 	public String toString() {
-		return "Polideportivo Nombre= " + Nombre + " Longitud= " + super.getLongitud() +" Ancho= "+ super.getAncho();
+		return "Polideportivo Nombre= " + Nombre + " Longitud= " + super.getLongitud() +"m Ancho= "+ super.getAncho()+"m";
 	}
 
 	

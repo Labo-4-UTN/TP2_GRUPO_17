@@ -28,7 +28,7 @@ public class EdificioOficinas extends Edificio {
 
 	@Override
 	public String toString() {
-		return "EdificioOficinas cantidadDeOficinas=" + cantidadDeOficinas + " Longitud " +super.getLongitud()+ " Ancho " + super.getAncho();
+		return "EdificioOficinas cantidadDeOficinas=" + cantidadDeOficinas + " Longitud " +super.getLongitud()+ "m Ancho " + super.getAncho()+"m";
 	}
 	
 	
